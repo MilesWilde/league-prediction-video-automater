@@ -164,7 +164,7 @@ class WardType(Enum):
     SIGHT_WARD = "SIGHT_WARD"
     UNDEFINED = "UNDEFINED"
     YELLOW_TRINKET = "YELLOW_TRINKET"
-
+    BLUE_TRINKET = "BLUE_TRINKET"
 
 @dataclass
 class Event:

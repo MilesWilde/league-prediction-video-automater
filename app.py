@@ -7,7 +7,7 @@ import io
 
 load_dotenv()
 config = dotenv_values(".env")
-user = User("Phoba")
+user = User("jj nO rEspeCT")
 
 
 matchIds = getMatchIds(user.puuid)
@@ -36,4 +36,7 @@ def scatterDamageWindows():
     plt.ylabel("Damage/Minute")
     plt.show()
 
-# print()
+def main():
+    scatterDamageWindows()
+
+main()
