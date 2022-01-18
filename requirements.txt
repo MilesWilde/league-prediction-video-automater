@@ -2,3 +2,4 @@ python-dotenv
 requests
 matplotlib
 psycopg2
+pyplot
