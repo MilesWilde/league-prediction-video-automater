@@ -7,7 +7,7 @@ import io
 
 load_dotenv()
 config = dotenv_values(".env")
-user = User("jj nO rEspeCT")
+user = User("Phoba")
 
 
 matchIds = getMatchIds(user.puuid)
