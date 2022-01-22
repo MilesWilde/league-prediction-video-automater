@@ -1,3 +1,7 @@
 python-dotenv
 requests
 matplotlib
+flask
+ariadne
+flask-sqlalchemy
+flask-cors
