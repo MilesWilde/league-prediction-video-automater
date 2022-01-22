@@ -1,5 +1,4 @@
-from Utilities.endpoints import getUserInfo
-
+from services.riotService.utilities.endpoints import getUserInfo
 
 class User:
     id: str
