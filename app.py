@@ -1,8 +1,8 @@
 from dotenv import load_dotenv, dotenv_values
-from Models.user import *
+from Services.RiotService.classes.user import *
 import matplotlib.pyplot as plt
-from Utilities.endpoint_helpers import *
-from Utilities.endpoints import *
+from Services.RiotService.utilities.endpoint_helpers import *
+from Services.RiotService.utilities.endpoints import *
 import io
 
 load_dotenv()

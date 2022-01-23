@@ -1,4 +1,4 @@
-from services.riotService.classes.gametimeline import GameTimeline
+from Services.RiotService.classes.gametimeline import GameTimeline
 
 def getPlayerNumberFromTimeline(puuid: str, timeline: GameTimeline):
     count = 0
