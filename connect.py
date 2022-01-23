@@ -19,12 +19,16 @@ def connect():
 	# execute a statement
         print('PostgreSQL database version:')
         cur.execute('SELECT version()')
-        cur.execute('SELECT * FROM loldb.windows')
 
         # display the PostgreSQL database server version
         db_version = cur.fetchone()
         print(db_version)
        
+        print('Windows table test:')
+        cur.execute('SELECT * FROM loldb.windows')
+        windows_table = cur.fetchone()
+        print(windows_table)
+
 	# close the communication with the PostgreSQL
         cur.close() 
     except (Exception, psycopg2.DatabaseError) as error:
