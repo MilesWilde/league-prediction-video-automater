@@ -1,4 +1,4 @@
 .env
 __pycache__
-.ini
+database.ini
 Utilities/__pycache__
