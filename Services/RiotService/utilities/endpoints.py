@@ -1,7 +1,7 @@
 from dotenv import load_dotenv, dotenv_values
 import requests
 import json
-from services.riotService.classes.gametimeline import GameTimeline, game_timeline_from_dict
+from Services.RiotService.classes.gametimeline import GameTimeline, game_timeline_from_dict
 load_dotenv()
 
 config = dotenv_values(".env")
