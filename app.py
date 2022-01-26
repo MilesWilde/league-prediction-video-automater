@@ -1,8 +1,8 @@
 from dotenv import load_dotenv, dotenv_values
-from Models.user import *
+from services.riotService.classes.user import *
 import matplotlib.pyplot as plt
-from Utilities.endpoint_helpers import *
-from Utilities.endpoints import *
+from services.riotService.utilities.endpoint_helpers import *
+from services.riotService.utilities.endpoints import *
 import io
 
 load_dotenv()
@@ -37,6 +37,7 @@ def scatterDamageWindows():
     plt.show()
 
 def main():
-    scatterDamageWindows()
+    print(matchTimeline)
+    # scatterDamageWindows()
 
 main()
