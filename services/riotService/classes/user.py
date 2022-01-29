@@ -1,4 +1,4 @@
-from Services.RiotService.utilities.endpoints import getUserInfo
+from utilities.endpoints import getUserInfo
 
 class User:
     id: str
@@ -12,6 +12,7 @@ class User:
     def __init__(self, name: str):
         self.name = name
         userResponse = getUserInfo(name)
+        print(userResponse)
         self.id = userResponse["id"]
         self.accountId = userResponse["accountId"]
         self.puuid = userResponse["puuid"]

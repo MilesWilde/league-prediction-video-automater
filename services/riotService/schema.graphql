@@ -1,0 +1,17 @@
+schema {
+    query: Query
+}
+
+type User {
+    id: ID!
+    accountId: ID!
+    puuid: ID!
+    name: ID!
+    profileIconId: ID!
+    revisionDate: ID!
+    summonerLevel: Int!
+}
+
+type Query {
+    user(name: String!): User!
+}
