@@ -5,3 +5,4 @@ flask
 ariadne
 flask-sqlalchemy
 flask-cors
+moviepy
